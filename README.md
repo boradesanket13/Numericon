@@ -1,6 +1,6 @@
 # Calculator-Using-HTML-CSS-and-Javascript
 
-*Output :** There is output screen where all text will be displayed. User inputs are typed and results are calculated based on that input. Again, we can consider this in two parts as follows:
+**Output :** There is output screen where all text will be displayed. User inputs are typed and results are calculated based on that input.
 
 **Operations:** This calculator can perform following operations which are listed below:
 
