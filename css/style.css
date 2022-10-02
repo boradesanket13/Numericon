@@ -57,6 +57,8 @@
 
 .result {
   height: 150px;
+  border: 8px solid black;
+  border-radius: 10px 10px 10px 10px;
 }
 
 .history {
