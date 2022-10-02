@@ -2,7 +2,14 @@
     margin: 0;
     padding: 0;
 }
+
 .container{
+    background-image: url("https://user-images.githubusercontent.com/79108273/193455668-a92224f3-358b-4293-abad-7ea568a831a8.jpg");
+    background-size: 100%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
     background-color: aqua;
     height: 100vh;
     display: flex;
@@ -10,7 +17,8 @@
     align-items: center;
 }
 .title {
-    background-color: aqua;
+    /* background-color: aqua; */
+    /* margin-bottom: 7rem; */
     text-align: center;
 }
 .calculator{
