@@ -14,7 +14,7 @@ demo: https://simple-calculator-pearl.vercel.app/
 
 [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
 [![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com)
-
+# Contributors
 <a href="https://github.com/Sanket1308/Simple-Calculator/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=Sanket1308/Simple-Calculator" />
 </a>
