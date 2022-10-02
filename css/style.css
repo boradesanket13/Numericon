@@ -169,3 +169,17 @@ footer {
   font-size: 30px;
   font-family: 'Poppins', sans-serif;
 }
+
+@media only screen and (max-width: 800px) {
+
+  /* using static units here instead of dynamic units to maintain a minimum base size as any resizing below this will cause the text to not be easily readable */
+
+  .calculator {
+    width: 300px;
+  }
+
+  button  {
+    width: 55px;
+  }
+
+}
