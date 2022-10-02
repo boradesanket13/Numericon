@@ -41,7 +41,7 @@ Please adhere to this project's [Code_Of_Conduct](https://github.com/Sanket1308/
 | Color             | Hex                                                                |
 | ----------------- | ------------------------------------------------------------------ |
 | Background Color(Light Blue) |  #00ffff |
-| Calculator Container Color(Dark Blue) |#0040ff |
+| Calculator Container Color(Dark Blue) | #0b4e81 |
 | white Color | #ffffff |
 | Button Color(Green shade)  | #00d1a0 |
 | Button Color(Light Pink) | #FFA07A |
