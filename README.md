@@ -1,3 +1,4 @@
+![Simple Calculator Logo](https://i.imgur.com/VFZ1TRu.png)
 # Calculator-Using-HTML-CSS-and-Javascript
 
 This online application can be used to perform basic Mathematical operations.
