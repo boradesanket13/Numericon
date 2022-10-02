@@ -169,16 +169,3 @@ footer {
   font-size: 30px;
   font-family: 'Poppins', sans-serif;
 }
-
-@media only screen and (max-width: 800px) {
-
-  /* fixed measures used instead of dynamic measures as any scaling lower than this will affect readibility */
-  
-  .calculator {
-    width: 300px;
-  }
-
-  button  {
-    width: 55px;
-  }
-}
