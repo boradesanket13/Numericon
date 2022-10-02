@@ -9,7 +9,10 @@
     justify-content: center;
     align-items: center;
 }
-
+.title {
+    background-color: aqua;
+    text-align: center;
+}
 .calculator{
     height: 500px;
     width: 400px;
