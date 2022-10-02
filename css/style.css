@@ -1,123 +1,131 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-.container{
-    background-color: aqua;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.container {
+  background-color: aqua;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .title {
-    background-color: aqua;
-    text-align: center;
+  background-color: aqua;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
 }
-.calculator{
-    height: 500px;
-    width: 400px;
-    background-color:rgb(9, 51, 114);
-    margin: 0 auto;
-    position: relative;
-    
-    top: 20px;
-    border-radius: 10px 10px 10px 10px;
-    box-shadow: 0 8px 16px 0   rgb(64, 112, 184);
-    
+.calculator {
+  height: 500px;
+  width: 400px;
+  background-color: rgb(9, 51, 114);
+  margin: 0 auto;
+  position: relative;
+
+  top: 20px;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 0 8px 16px 0 rgb(64, 112, 184);
 }
 
-.result{
-    height: 150px;
+.result {
+  height: 150px;
 }
 
-.history{
-    height: 20px;
-    text-align: right;
-    margin: 0 20px;
-    padding-top: 20px;
-    color:white;
-    font-size: 15px;
+.history {
+  height: 20px;
+  text-align: right;
+  margin: 0 20px;
+  padding-top: 20px;
+  color: white;
+  font-size: 15px;
 }
 
-.output{
-    text-align: right;
-    margin: 0 20px;
-    padding-top: 10px;
-    font-size: 22px;
-    font-weight: bold;
-    color: rgb(158, 250, 158);
+.output {
+  text-align: right;
+  margin: 0 20px;
+  padding-top: 10px;
+  font-size: 22px;
+  font-weight: bold;
+  color: rgb(158, 250, 158);
 }
 
-.keyboard{
-    padding: 12px;
+.keyboard {
+  padding: 12px;
 }
 
-button{
-    border-radius: 15%;
-    width: 80px;
-    margin: 5px;
-    height: 50px;
-    border-width: 0;
-    font-weight: bold;
-    font-size: 17px;
-    
+button {
+  border-radius: 15%;
+  width: 80px;
+  margin: 5px;
+  height: 50px;
+  border-width: 0;
+  font-weight: bold;
+  font-size: 17px;
 }
 
-.number , .empty{
-    background-color: rgb(9, 51, 114);
-    color: white;
+.number,
+.empty {
+  background-color: rgb(9, 51, 114);
+  color: white;
 }
 
-.operator , .number{
-    cursor: pointer;
+.operator,
+.number {
+  cursor: pointer;
 }
 
-button:active{
-    width: 83px;
-    height: 52px;
-    font-size: 13px;
+button:active {
+  width: 83px;
+  height: 52px;
+  font-size: 13px;
 }
 
-button:focus{
-    outline: 0;;
+button:focus {
+  outline: 0;
 }
 
-button:nth-child(4){
-    background-color : rgb(23, 231, 214);
-    /* box-shadow: 0 8px 16px 8px   rgb(0, 32, 80); */
-    z-index: 5;
-    /* position: absolute; */
+button:nth-child(4) {
+  background-color: rgb(23, 231, 214);
+  /* box-shadow: 0 8px 16px 8px   rgb(0, 32, 80); */
+  z-index: 5;
+  /* position: absolute; */
 }
 
-button:nth-child(8){
-    background-color : rgb(176, 231, 23);
-    /* box-shadow: 0 8px 16px 0   rgb(89, 130, 190); */
-    z-index: 5;
-    /* position: absolute; */
+button:nth-child(8) {
+  background-color: rgb(176, 231, 23);
+  /* box-shadow: 0 8px 16px 0   rgb(89, 130, 190); */
+  z-index: 5;
+  /* position: absolute; */
 }
 
-button:nth-child(12){
-    background-color : rgb(231, 117, 23);
-    /* box-shadow: 0 8px 16px 0   rgb(89, 130, 190); */
-    z-index: 5;
-    /* position: absolute; */
+button:nth-child(12) {
+  background-color: rgb(231, 117, 23);
+  /* box-shadow: 0 8px 16px 0   rgb(89, 130, 190); */
+  z-index: 5;
+  /* position: absolute; */
 }
 
-button:nth-child(16){
-    background-color : rgb(255, 133, 133);
-    /* box-shadow: 0 8px 16px 0  rgb(89, 130, 190); */
-    z-index: 5;
-    /* position: absolute; */
+button:nth-child(16) {
+  background-color: rgb(255, 133, 133);
+  /* box-shadow: 0 8px 16px 0  rgb(89, 130, 190); */
+  z-index: 5;
+  /* position: absolute; */
 }
 
-button:nth-child(20){
-    background-color : rgb(72, 231, 23);
-    /* box-shadow: 0 8px 16px 0   rgb(89, 130, 190); */
-    z-index: 5;
-    /* position: absolute; */
+button:nth-child(20) {
+  background-color: rgb(72, 231, 23);
+  /* box-shadow: 0 8px 16px 0   rgb(89, 130, 190); */
+  z-index: 5;
+  /* position: absolute; */
 }
 
-.number:hover , .operator:hover{
-    background-color: black;
-    color : white ;
+.number:hover,
+.operator:hover {
+  background-color: black;
+  color: white;
+}
+footer {
+  background-color: aqua;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Poppins', sans-serif;
 }
