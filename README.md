@@ -1,17 +1,71 @@
 # Calculator-Using-HTML-CSS-and-Javascript
 
-**Output :** There is output screen where all text will be displayed. User inputs are typed and results are calculated based on that input.
+This online application can be used to perform basic Mathematical operations.
+#### Calculator : A calculator is a device that performs arithmetic operations on numbers. Basic calculators can do only addition, subtraction, multiplication and division mathematical calculations. 
 
-**Operations:** This calculator can perform following operations which are listed below:
 
+## Deployment
+In order to deploy the website locally, follow the steps mentioned below:
+
+To clone this project run
+
+```bash
+  git clone https://github.com/Sanket1308/Simple-Calculator.git
 ```
-Addition
-Substraction
-Multiplication
-Division
-Persentage
+Go into the project folder
+
+```bash
+  cd simple-calculator
 ```
-## After entering some data -
+To deploy this project run
+
+```bash
+  Run Live Server
+``` 
+ ## Color Reference
+
+| Color             | Hex                                                                |
+| ----------------- | ------------------------------------------------------------------ |
+| pink | ![#e83283](https://via.placeholder.com/10/e83283?text=+) #e83283 |
+| blue | ![#3a8fd9](https://via.placeholder.com/10/3a8fd9?text=+) #3a8fd9 |
+| indigo | ![#6610f2](https://via.placeholder.com/10/6610f2?text=+) #6610f2 |
+| purple | ![#686dc3](https://via.placeholder.com/10/686dc3?text=+) #686dc3|
+| red | ![#fc346f](https://via.placeholder.com/10/fc346f?text=+) #fc346f |
+| green | ![#41d7a7](https://via.placeholder.com/10/41d7a7?text=+) #41d7a7 |
+| orange | ![#fd7e14](https://via.placeholder.com/10/fd7e14?text=+) #fd7e14 |
+| yellow | ![#ffc107](https://via.placeholder.com/10/ffc107?text=+) #ffc107 |
+| cyan | ![#39cbfb](https://via.placeholder.com/10/39cbfb?text=+) #39cbfb |
+| teal | ![#528fb3](https://via.placeholder.com/10/528fb3?text=+) #528fb3 |
+
+
+## Check out the project here 💻
+
+[Link to Website](https://sanket1308.github.io/Simple-Calculator/)
+
+
+## Badges
+
+
+![GitHub Issues](https://img.shields.io/github/issues/Sanket1308/Simple-Calculator?style=for-the-badge)
+![GitHub Forks](https://img.shields.io/github/forks/Sanket1308/Simple-Calculator?style=for-the-badge)
+![GitHub stars](https://img.shields.io/github/stars/Sanket1308/Simple-Calculator?style=for-the-badge)
+![GitHub License](https://img.shields.io/github/license/Sanket1308/Simple-Calculator?style=for-the-badge)
+[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
+[![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com)
+
+
+## Contributing
+
+Contributions are always welcome!
+
+See `contributing.md` for ways to get started.
+
+Please adhere to this project's `code of conduct`.
+
+
+## Screenshots
+
+#### After entering some data -
 ![App Screenshot](https://user-images.githubusercontent.com/86493014/193455722-9f867342-a759-49da-a47f-fd1d1f1528a7.png)
 
 ![App Screenshot](https://user-images.githubusercontent.com/86493014/193455727-52f49118-b6ad-4667-ab37-069802d9180e.png)
@@ -24,29 +78,10 @@ index.html
 css/style.css
 js/script.js
 ```
-## Check out the project here 💻
 
-[Link to Website](https://sanket1308.github.io/Simple-Calculator/)
 
-## Contributing
+## Author
 
-Contributions are always welcome!
+ [@Sanket1308](https://www.github.com/Sanket1308)
 
-See [Contributing.md](https://github.com/yashB-2002/Simple-Calculator/blob/readme-branch/Contributing.md) for ways to get started.
-
-Please adhere to this project's [Code_Of_Conduct](https://github.com/Sanket1308/Simple-Calculator/blob/main/CODE_OF_CONDUCT.md) file.
-
-## Color Reference
-
-| Color             | Hex                                                                |
-| ----------------- | ------------------------------------------------------------------ |
-| Background Color(Light Blue) |  #00ffff |
-| Calculator Container Color(Dark Blue) |#0040ff |
-| white Color | #ffffff |
-| Button Color(Green shade)  | #00d1a0 |
-| Button Color(Light Pink) | #FFA07A |
-
-# Badges
-
-[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
-[![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com)
+Happy Hacking !! 😊🙌
