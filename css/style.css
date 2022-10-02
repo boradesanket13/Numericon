@@ -2,6 +2,34 @@
   margin: 0;
   padding: 0;
 }
+
+
+.container{
+    background-image: url("https://user-images.githubusercontent.com/79108273/193455668-a92224f3-358b-4293-abad-7ea568a831a8.jpg");
+    background-size: 100%;   
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title {
+
+    text-align: center;
+}
+.calculator{
+    height: 500px;
+    width: 400px;
+    background-color:rgb(9, 51, 114);
+    margin: 0 auto;
+    position: relative;
+    
+    top: 20px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0 8px 16px 0   rgb(64, 112, 184);
+}
 .container {
   background-color: aqua;
   height: 100vh;
@@ -24,6 +52,7 @@
   top: 20px;
   border-radius: 10px 10px 10px 10px;
   box-shadow: 0 8px 16px 0 rgb(64, 112, 184);
+
 }
 
 .result {
