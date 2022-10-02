@@ -169,3 +169,14 @@ footer {
   font-size: 30px;
   font-family: 'Poppins', sans-serif;
 }
+
+@media only screen and (max-width: 600px) {
+
+  .calculator {
+    width: 300px;
+  }
+
+  button  {
+    width: 55px;
+  }
+}
