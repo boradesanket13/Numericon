@@ -52,8 +52,8 @@
   font-family: 'Poppins', sans-serif;
 }
 .calculator {
-  height: 500px;
-  width: 400px;
+  height: 60%;
+  width: 25%;
   background-color: rgb(9, 51, 114);
   margin: 0 auto;
   position: relative;
@@ -65,7 +65,7 @@
 }
 
 .result {
-  height: 150px;
+  height: 30%;
   border: 8px solid black;
   border-radius: 10px 10px 10px 10px;
 }
@@ -83,23 +83,24 @@
   text-align: right;
   margin: 0 20px;
   padding-top: 10px;
-  font-size: 22px;
+  font-size: 1.3em;
   font-weight: bold;
   color: rgb(158, 250, 158);
 }
 
 .keyboard {
-  padding: 12px;
+  padding: 5%;
+  text-align: center;
 }
 
 button {
   border-radius: 15%;
-  width: 80px;
-  margin: 5px;
+  width: 20%;
+  margin: 1%;
   height: 50px;
   border-width: 0;
   font-weight: bold;
-  font-size: 17px;
+  font-size: 1em;
 }
 
 .number,
@@ -114,9 +115,9 @@ button {
 }
 
 button:active {
-  width: 83px;
+  width: 22%;
   height: 52px;
-  font-size: 13px;
+  font-size: 0.8em;
 }
 
 button:focus {
@@ -166,6 +167,7 @@ button:nth-child(20) {
 footer {
   background-color: rgb(135, 206, 235);
   text-align: center;
-  font-size: 30px;
+  font-size: 1.8em;
   font-family: 'Poppins', sans-serif;
 }
+
