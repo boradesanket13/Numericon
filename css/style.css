@@ -4,9 +4,17 @@
   padding: 0;
 }
 
+:root{
+  --primary-colour:rgb(9, 51, 114);
+}
+.light-mode{
+ --primary-colour:rgb(224, 71, 132);
+}
+
 
 .container{
-    background-image: url("https://user-images.githubusercontent.com/79108273/193455668-a92224f3-358b-4293-abad-7ea568a831a8.jpg");
+    background-image: url("/img/light.jpg");
+    transition: background-image 0.75s linear;
     background-size: 100%;   
     display: flex;
     flex-direction: column;
@@ -23,7 +31,7 @@
 .calculator{
     height: 500px;
     width: 400px;
-    background-color:rgb(9, 51, 114);
+    background-color: var(--primary-colour);
     margin: 0 auto;
     position: relative;
     
@@ -54,7 +62,7 @@
 .calculator {
   height: 500px;
   width: 400px;
-  background-color: rgb(9, 51, 114);
+  background-color:var(--primary-colour);
   margin: 0 auto;
   position: relative;
 
@@ -104,7 +112,7 @@ button {
 
 .number,
 .empty {
-  background-color: rgb(9, 51, 114);
+  background-color: var(--primary-colour);
   color: white;
 }
 
@@ -168,4 +176,10 @@ footer {
   text-align: center;
   font-size: 30px;
   font-family: 'Poppins', sans-serif;
+}
+
+
+/* For darkmode */
+#darkmode-icon {
+  height: 30px;
 }
