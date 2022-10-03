@@ -5,10 +5,12 @@
 }
 
 :root{
-  --primary-colour:rgb(9, 51, 114);
+  --primary-colour:rgb(21, 23, 26);
+  --secondary-colour:aliceblue;
 }
 .light-mode{
- --primary-colour:rgb(224, 71, 132);
+ --primary-colour:aliceblue;
+ --secondary-colour:rgb(21, 23, 26);
 }
 
 
@@ -39,7 +41,7 @@
     
     top: 20px;
     border-radius: 10px 10px 10px 10px;
-    box-shadow: 0 8px 16px 0   rgb(64, 112, 184);
+    box-shadow: 0 8px 16px 0   rgb(39, 39, 40);
 }
 .container {
   background-color: rgb(135, 206, 235);
@@ -51,9 +53,9 @@
 
 .container h1{
   font-family: 'Roboto', sans-serif;
-  color: aliceblue;
-  text-shadow: 2px 7px 5px rgba(0,0,0,0.4), 
-  0px -4px 10px rgba(255,255,255,0.3);
+  color:var(--secondary-colour);
+  text-shadow: 2px 7px 5px var(--secondary-colour), 
+  0px -4px 10px var(--primary-colour);
 }
 
 .title {
@@ -62,20 +64,15 @@
   font-family: 'Poppins', sans-serif;
 }
 .calculator {
-<<<<<<< HEAD
-  height: 500px;
-  width: 400px;
-  background-color:var(--primary-colour);
-=======
-  height: 60%;
+  height: 65%;
   width: 25%;
->>>>>>> 5cb7a3c0d56ce203141eedd28b15428fe62135e2
+  background-color:var(--primary-colour);
   margin: 0 auto;
   position: relative;
 
   top: 20px;
   border-radius: 10px 10px 10px 10px;
-  box-shadow: 0 8px 16px 0 rgb(64, 112, 184);
+  box-shadow: 0 8px 16px 0 rgb(41, 42, 43);
 
 }
 
@@ -90,7 +87,7 @@
   text-align: right;
   margin: 0 20px;
   padding-top: 20px;
-  color: white;
+  color:var(--secondary-colour);
   font-size: 15px;
 }
 
@@ -100,7 +97,7 @@
   padding-top: 10px;
   font-size: 1.3em;
   font-weight: bold;
-  color: rgb(158, 250, 158);
+  color:var(--secondary-colour);
 }
 
 .keyboard {
@@ -121,7 +118,7 @@ button {
 .number,
 .empty {
   background-color: var(--primary-colour);
-  color: white;
+  color:var(--secondary-colour);
 }
 
 .operator,
@@ -176,8 +173,8 @@ button:nth-child(20) {
 
 .number:hover,
 .operator:hover {
-  background-color: black;
-  color: white;
+  background-color: var(--secondary-colour);
+  color:var(--primary-colour);
 }
 footer {
   background-color: rgb(135, 206, 235);
@@ -191,5 +188,6 @@ footer {
 /* For darkmode */
 #darkmode-icon {
   height: 30px;
+  cursor: pointer;
 }
 

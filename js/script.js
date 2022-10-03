@@ -103,13 +103,13 @@ darkmode.onclick = function () {
     if (document.body.classList.contains("light-mode")) {
         document.getElementsByClassName("container")[0].style.backgroundImage = "url(img/light.jpg)";
         
-        darkmode.src = "/img/sun.png";
+        darkmode.src = "/img/moon.png";
 
     }
     else {
         
         document.getElementsByClassName("container")[0].style.backgroundImage = "url(img/dark.jpg)";
-        darkmode.src = "/img/moon.png";
+        darkmode.src = "/img/sun.png";
     }
 
 }
