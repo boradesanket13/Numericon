@@ -17,8 +17,10 @@
     align-items: center;
 }
 .title {
-
     text-align: center;
+}
+.logo{
+  max-width: 150px;
 }
 .calculator{
     height: 500px;
