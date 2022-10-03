@@ -4,7 +4,7 @@ This colourful caculator is used to perform basic  **mathematical** operations
 
 ![undraw_calculator_re_alsc (1)](https://user-images.githubusercontent.com/114678694/193467678-38489f12-5751-414d-a1e9-04657d5ade53.svg)
 <br>
-<h1>Technologies used</h1>
+<h1>Tech stack</h1>
 
 
 ![undraw_static_assets_rpm6 (1)](https://user-images.githubusercontent.com/114678694/193468831-6df4843c-8228-4e5d-9d76-63afbe2d9ac4.svg)
