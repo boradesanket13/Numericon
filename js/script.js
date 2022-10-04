@@ -130,17 +130,20 @@ for (var i = 0; i < numbers.length; i++) {
 var darkmode = document.getElementById("darkmode-icon");
 
 darkmode.onclick = function () {
+    const footer = document.getElementById('footer');
     document.body.classList.toggle("light-mode");
     if (document.body.classList.contains("light-mode")) {
         document.getElementsByClassName("container")[0].style.backgroundImage = "url(img/light.jpg)";
         
         darkmode.src = "/img/sun.png";
+        footer.style.backgroundColor = "#e04784"
 
     }
     else {
         
         document.getElementsByClassName("container")[0].style.backgroundImage = "url(img/dark.jpg)";
         darkmode.src = "/img/moon.png";
+        footer.style.backgroundColor = "#171959"
     }
 
 }

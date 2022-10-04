@@ -180,10 +180,11 @@ button:nth-child(20) {
   color: white;
 }
 footer {
-  background-color: rgb(135, 206, 235);
+  background-color: #2a051a;
   text-align: center;
   font-size: 1.8em;
   font-family: 'Poppins', sans-serif;
+  color: white;
 }
 
 
