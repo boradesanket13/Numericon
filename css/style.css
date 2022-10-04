@@ -176,8 +176,10 @@ button:nth-child(20) {
   background-color: var(--secondary-colour);
   color:var(--primary-colour);
 }
+
 footer {
-  background-color: rgb(135, 206, 235);
+  background-color: rgba(227, 227, 227, 0.65);
+  padding: 50;
   text-align: center;
   font-size: 1.8em;
   font-family: 'Poppins', sans-serif;
