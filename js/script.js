@@ -93,3 +93,10 @@ for(var i=0;i<numbers.length;i++){
         }
     });
 }
+
+document.querySelector(".keyboard").addEventListener("click", function() {
+    var audio=new Audio("./sound/click.mp3");
+      audio.play();
+});
+
+
