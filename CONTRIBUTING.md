@@ -3,10 +3,16 @@
 When contributing to this repository, please first **ask to be assigned to an issue**.
 Please note we have a [Code of conduct](https://github.com/Sanket1308/Simple-Calculator/blob/main/CODE_OF_CONDUCT.md), kindly follow it in all your interactions with the project.
 
-1. Search for an open issue and ask to be assigned to it.
-2. After you are assigned an  issue , [fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo) the repository and create a new branch
-3. Make your changes according to the PR guidelines, and commit them on the new branch
-4. Create a [pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) and wait for it to be reviewed and merged!
+# Steps to Contribute
+
+1. Search for an open issue and ask to be assigned to it
+2. Fork the Project after you are assigned the issue
+3. Clone the repository (`git clone <repolink>`)
+4. Create your another Branch (`git checkout -b <branchname>`)
+5. Add your changes (`git add .`)
+6. Commit your Changes (`git commit -m 'Add some newFeature'`)
+7. Push to the Branch (`git push origin <branchname>`)
+8. Open a Pull Request :tada:
 
 ## Pull Request Guidelines
 
