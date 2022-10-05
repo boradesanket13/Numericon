@@ -193,6 +193,7 @@ footer {
   cursor: pointer;
 }
 
+<<<<<<< HEAD
 @media screen and (min-height: 500px) and (max-height:650px){
 
   .keyboard {
@@ -268,3 +269,17 @@ footer {
   }
   
 }
+=======
+@media only screen and (max-width: 800px) {
+
+  /* using static units here instead of dynamic units to maintain a minimum base size as any resizing below this will cause the text to not be easily readable */
+
+  .calculator {
+    width: 300px;
+  }
+
+  button  {
+    width: 55px;
+  }
+}
+>>>>>>> f13b6be7fdbb87ec594f752d23050ab16b117209
