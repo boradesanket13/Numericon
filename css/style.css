@@ -1,7 +1,14 @@
 body{
     background-color: rgb(0, 0, 0);
 }
-
+div > h1{
+    height: 40px;
+    text-align: center;
+    margin: 0 40px;
+    padding-top: 10px;
+    color:white;
+    font-size: 30px;
+}
 .container{
     background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/mybg.jpg);
     background-repeat: no-repeat;
