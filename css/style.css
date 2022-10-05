@@ -5,10 +5,10 @@
 }
 
 :root{
-  --primary-colour:rgb(9, 51, 114);
+  --primary-colour:rgb(170, 79, 26);
 }
 .light-mode{
- --primary-colour:rgb(224, 71, 132);
+ --primary-colour:rgb(70, 95, 117);
 }
 
 
@@ -18,7 +18,7 @@
     background-size: 100%;   
     display: flex;
     flex-direction: column;
-    background-color: rgb(135, 206, 235);
+    background-color: rgb(26, 39, 44);
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -39,10 +39,10 @@
     
     top: 20px;
     border-radius: 10px 10px 10px 10px;
-    box-shadow: 0 8px 16px 0   rgb(64, 112, 184);
+    box-shadow: 0 8px 16px 0   rgb(10, 24, 46);
 }
 .container {
-  background-color: rgb(135, 206, 235);
+  background-color: rgb(6, 29, 37);
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -57,7 +57,7 @@
 }
 
 .title {
-  background-color: rgb(135, 206, 235);
+  background-color: rgb(7, 34, 44);
   text-align: center;
   font-family: 'Poppins', sans-serif;
 }
@@ -81,7 +81,7 @@
 
 .result {
   height: 30%;
-  border: 8px solid black;
+  border: 8px solid rgb(0, 0, 0);
   border-radius: 10px 10px 10px 10px;
 }
 
@@ -100,7 +100,7 @@
   padding-top: 10px;
   font-size: 1.3em;
   font-weight: bold;
-  color: rgb(158, 250, 158);
+  color: rgb(128, 15, 15);
 }
 
 .keyboard {
