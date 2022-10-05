@@ -110,6 +110,8 @@ button:nth-child(16){
     /* position: absolute; */
 }
 
+
+
 button:nth-child(20){
     background-color : rgb(72, 231, 23);
     /* box-shadow: 0 8px 16px 0   rgb(89, 130, 190); */
@@ -121,3 +123,10 @@ button:nth-child(20){
     background-color: black;
     color : white ;
 }
+
+.mute{
+   
+    background-image: url(./img/mute.jpg);
+    
+   
+  }

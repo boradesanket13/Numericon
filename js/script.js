@@ -94,9 +94,21 @@ for(var i=0;i<numbers.length;i++){
     });
 }
 
-document.querySelector(".keyboard").addEventListener("click", function() {
-    var audio=new Audio("./sound/click.mp3");
-      audio.play();
+var play=true;
+var count=1;
+document.querySelector("#mute").addEventListener('click',function(){
+    if(count%2){
+        play=false;
+    }
+    else{
+       play=true;
+    }
+    count++;
 });
 
-
+document.querySelector(".keyboard").addEventListener('click', function(){
+    if(play){
+        var audio= new Audio("./sound/click.mp3");
+        audio.play();
+    }
+});
