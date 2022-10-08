@@ -39,7 +39,7 @@
     
     top: 20px;
     border-radius: 10px 10px 10px 10px;
-    box-shadow: 0 8px 16px 0   rgb(64, 112, 184);
+    box-shadow: rgb(226 28 83) 0px 1px 2px 0px, rgb(181 189 98) 0px 2px 6px 2px;
 }
 .container {
   background-color: rgb(135, 206, 235);
@@ -81,8 +81,8 @@
 
 .result {
   height: 30%;
-  border: 8px solid black;
   border-radius: 10px 10px 10px 10px;
+  box-shadow: 0px 2px 1px #ffffff;
 }
 
 .history {
@@ -104,7 +104,7 @@
 }
 
 .keyboard {
-  padding: 5%;
+  padding-top: 28px;
   text-align: center;
 }
 
@@ -127,6 +127,7 @@ button {
 .operator,
 .number {
   cursor: pointer;
+  box-shadow: -14px -2px 66px #aaaaaab3, 0px 2px 1px #ffffff;
 }
 
 button:active {
