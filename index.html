@@ -47,12 +47,12 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body class="light-mode">
-    
     <div class="container">
+        <button class="mute" id="mute">🔇</button>
         <div><img src="/img/sun.png" alt="" id="darkmode-icon">
             <h1 >Simple Calculator</h1>
         </div>  
-
+        
         <div class="calculator">
 
             <div class="result">
@@ -66,28 +66,28 @@
                 </div>
 
             </div>
-            <audio id="sound1" src="./Audio/calculatorclick.mp3" preload="auto"></audio>
+            
             <div class="keyboard">
-                <button class="operator" id="clear" onclick="document.getElementById('sound1').play();">C</button>
-                <button class="operator" id="backspace" onclick="document.getElementById('sound1').play();">CE</button>
-                <button class="operator" id="%" onclick="document.getElementById('sound1').play();">%</button>
-                <button class="operator" id="/" onclick="document.getElementById('sound1').play();">&#247</button>
-                <button class="number"   id="9" onclick="document.getElementById('sound1').play();">9</button>
-                <button class="number"   id="8" onclick="document.getElementById('sound1').play();">8</button>
-                <button class="number"   id="7" onclick="document.getElementById('sound1').play();">7</button>
-                <button class="operator" id="*" onclick="document.getElementById('sound1').play();">&times</button>
-                <button class="number"   id="6" onclick="document.getElementById('sound1').play();">6</button>
-                <button class="number"   id="5" onclick="document.getElementById('sound1').play();">5</button>
-                <button class="number"   id="4" onclick="document.getElementById('sound1').play();">4</button>
-                <button class="operator" id="-" onclick="document.getElementById('sound1').play();">-</button>
-                <button class="number"   id="3" onclick="document.getElementById('sound1').play();">3</button>
-                <button class="number"   id="2" onclick="document.getElementById('sound1').play();">2</button>
-                <button class="number"   id="1" onclick="document.getElementById('sound1').play();">1</button>
-                <button class="operator" id="+" onclick="document.getElementById('sound1').play();">+</button>
-                <button class="operator" id="!" onclick="document.getElementById('sound1').play();">n! </button>
-                <button class="number"   id="0" onclick="document.getElementById('sound1').play();">0</button>
-                <button class="operator" id="sign" onclick="document.getElementById('sound1').play();">&#177</button>
-                <button class="operator" id="=" onclick="document.getElementById('sound1').play();">=</button>
+                <button class="operator" id="clear">C</button>
+                <button class="operator" id="backspace">CE</button>
+                <button class="operator" id="%">%</button>
+                <button class="operator" id="/">&#247</button>
+                <button class="number"   id="9">9</button>
+                <button class="number"   id="8">8</button>
+                <button class="number"   id="7">7</button>
+                <button class="operator" id="*">&times</button>
+                <button class="number"   id="6">6</button>
+                <button class="number"   id="5">5</button>
+                <button class="number"   id="4">4</button>
+                <button class="operator" id="-">-</button>
+                <button class="number"   id="3">3</button>
+                <button class="number"   id="2">2</button>
+                <button class="number"   id="1">1</button>
+                <button class="operator" id="+">+</button>
+                <button class="operator" id="!">n! </button>
+                <button class="number"   id="0">0</button>
+                <button class="sign"    id="play">&#177</button>
+                <button class="operator" id="=">=</button>
             </div>
 
         </div>

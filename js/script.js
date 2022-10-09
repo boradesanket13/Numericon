@@ -144,3 +144,23 @@ darkmode.onclick = function () {
     }
 
 }
+
+
+var play=true;
+var count=1;
+document.querySelector("#mute").addEventListener('click',function(){
+    if(count%2){
+        play=false;
+    }
+    else{
+       play=true;
+    }
+    count++;
+});
+
+document.querySelector(".keyboard").addEventListener('click', function(){
+    if(play){
+        var audio= new Audio("./Audio/calculatorclick.mp3");
+        audio.play();
+    }
+});
