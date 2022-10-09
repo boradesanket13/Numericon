@@ -196,6 +196,7 @@ footer {
 /* For darkmode */
 #darkmode-icon {
   height: 30px;
+  cursor: pointer;
 }
 
 @media only screen and (max-width: 800px) {
