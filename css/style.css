@@ -11,7 +11,12 @@
  --primary-colour:rgb(224, 71, 132);
 }
 
-
+#mute {
+  width: 60px;
+  margin-left: 90%;
+  position:absolute;
+  margin-bottom: 40%;
+}
 .container{
     background-image: url("/img/light.jpg");
     transition: background-image 0.75s linear;
@@ -36,7 +41,7 @@
     background-color: var(--primary-colour);
     margin: 0 auto;
     position: relative;
-    
+    margin-bottom: 90%;
     top: 20px;
     border-radius: 10px 10px 10px 10px;
     box-shadow: rgb(226 28 83) 0px 1px 2px 0px, rgb(181 189 98) 0px 2px 6px 2px;
