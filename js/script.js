@@ -151,9 +151,11 @@ var count=1;
 document.querySelector("#mute").addEventListener('click',function(){
     if(count%2){
         play=false;
+        mute.innerText='🔇';
     }
     else{
        play=true;
+       mute.innerText='🔊';
     }
     count++;
 });
