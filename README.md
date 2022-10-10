@@ -96,3 +96,15 @@ js/script.js
  [@Sanket1308](https://www.github.com/Sanket1308)
 
 Happy Hacking !! 😊🙌
+
+</br>
+
+# Contributors ✨
+
+Thanks goes to these wonderful people (🤗):
+
+</br>
+
+<a href="https://github.com/Sanket1308/Simple-Calculator/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Sanket1308/Simple-Calculator"/>
+  </a>
