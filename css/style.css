@@ -3,10 +3,10 @@
   margin: 0;
   padding: 0;
 }
-.waviy {
+.animations-waviy {
   position: relative;
 }
-.waviy span {
+.animations-waviy span {
   position: relative;
   display: inline-block;
   font-size: 40px;
