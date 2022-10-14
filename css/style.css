@@ -5,8 +5,8 @@
 }
 
 .light-mode{
-  --primary-color:rgba(211, 40, 154,0.75);
-  --header-color:rgb(217 59 155);
+  --primary-color:rgba(224,71,132,0.75);
+  --header-color:rgb(224,71,132);
   --header-font-color:rgb(0, 0, 0);
   --secondary-color:hsl(0, 0%, 13%);
   --btn-color-1: rgb(98, 98, 98);
@@ -84,8 +84,6 @@ header div{
 .container h1{
   font-family: 'Roboto', sans-serif;
   color: aliceblue;
-  text-shadow: 2px 7px 5px rgba(0,0,0,0.4), 
-  0px -4px 10px rgba(255,255,255,0.3);
 }
 
 .title {
@@ -196,7 +194,7 @@ button:nth-child(20) {
 
 .number:hover,
 .operator:hover {
-  background-color: black;
+  background-color: var(--btn-color-2);
   color: white;
 }
 footer {
