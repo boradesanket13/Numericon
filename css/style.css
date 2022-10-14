@@ -195,7 +195,7 @@ button:nth-child(20) {
 .number:hover,
 .operator:hover {
   background-color: var(--btn-color-2);
-  color: white;
+  color: var(--btn-color-1);
 }
 footer {
   height: 7vh;
