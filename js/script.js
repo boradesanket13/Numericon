@@ -127,20 +127,16 @@ for (var i = 0; i < numbers.length; i++) {
 
 
 // For Darkmode
-var darkmode = document.getElementById("darkmode-icon");
+var darkmode = document.getElementById("toggle-icon");
 
 darkmode.onclick = function () {
-    document.body.classList.toggle("light-mode");
-    if (document.body.classList.contains("light-mode")) {
-        document.getElementsByClassName("container")[0].style.backgroundImage = "url(img/light.jpg)";
-        
-        darkmode.src = "/img/sun.png";
-
+    document.body.classList.toggle("dark-theme");
+    var icon = document.getElementById("toggle-icon");
+    if (document.body.classList.contains("dark-theme")) {
+        icon.src = "img/sun.png";
     }
     else {
-        
-        document.getElementsByClassName("container")[0].style.backgroundImage = "url(img/dark.jpg)";
-        darkmode.src = "/img/moon.png";
+        icon.src = "img/moon.png";
     }
 
 }

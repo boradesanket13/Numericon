@@ -4,80 +4,92 @@
   padding: 0;
 }
 
-:root{
-  --primary-colour:rgb(9, 51, 114);
-}
 .light-mode{
- --primary-colour:rgb(224, 71, 132);
+  --primary-color:rgba(224,71,132,0.75);
+  --header-color:rgb(224,71,132);
+  --header-font-color:rgb(0, 0, 0);
+  --secondary-color:hsl(0, 0%, 13%);
+  --btn-color-1: rgb(98, 98, 98);
+  --btn-color-2: #fff;
+  --container-background: url("../img/light.jpg");
+  --footer-img: url("../img/git-black.png");
+}
+
+.dark-theme{
+  --header-color:rgb(0, 26, 65);
+  --header-font-color:#fff;
+  --primary-color:rgba(9, 51, 114,0.75);
+  --secondary-color:#212121;
+  --btn-color-1:#fff;
+  --btn-color-2:#000000;
+  --container-background: url("../img/dark.jpg");
+  --footer-img: url("../img/git-white.png");
 }
 
 #mute {
   width: 60px;
-  margin-left: 90%;
-  position:absolute;
-  margin-bottom: 40%;
+  position:relative;  
   cursor: pointer;
+  background-color: var(--btn-color-1);
+  font-size: xx-large;
 }
 .container{
-    background-image: url("/img/light.jpg");
-    transition: background-image 0.75s linear;
-    background-size: 100%;   
+    background-image: var(--container-background);
+    background-size: cover;
+    transition: background-image 0.75s linear;  
     display: flex;
     flex-direction: column;
     background-color: rgb(135, 206, 235);
-    height: 100vh;
+    height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .title {
     text-align: center;
 }
 .logo{
   max-width: 150px;
 }
+
+header{
+  width:100%;
+  height: 10vh;
+  background: var(--header-color);
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+  color: var(--header-font-color);
+}
+header div{
+  display: flex;
+  padding: 1rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .calculator{
     height: 500px;
     width: 400px;
-    background-color: var(--primary-colour);
+    background-color: var(--primary-color);
     margin: 0 auto;
     position: relative;
-    margin-bottom: 90%;
-    top: 20px;
     border-radius: 10px 10px 10px 10px;
     box-shadow: rgb(226 28 83) 0px 1px 2px 0px, rgb(181 189 98) 0px 2px 6px 2px;
 }
-.container {
-  background-color: rgb(135, 206, 235);
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
 
 .container h1{
   font-family: 'Roboto', sans-serif;
   color: aliceblue;
-  text-shadow: 2px 7px 5px rgba(0,0,0,0.4), 
-  0px -4px 10px rgba(255,255,255,0.3);
 }
 
 .title {
   background-color: rgb(135, 206, 235);
   text-align: center;
   font-family: 'Poppins', sans-serif;
-}
-.calculator {
-  height: 500px;
-  width: 400px;
-  background-color:var(--primary-colour);
-  margin: 0 auto;
-  position: relative;
-
-  top: 20px;
-  border-radius: 10px 10px 10px 10px;
-  box-shadow: 0 8px 16px 0 rgb(64, 112, 184);
-
 }
 
 .result {
@@ -125,7 +137,7 @@ button {
 
 .number,
 .empty {
-  background-color: var(--primary-colour);
+  background-color: var(--primary-color);
   color: white;
 }
 
@@ -182,12 +194,15 @@ button:nth-child(20) {
 
 .number:hover,
 .operator:hover {
-  background-color: black;
-  color: white;
+  background-color: var(--btn-color-2);
+  color: var(--btn-color-1);
 }
 footer {
-  background-color: rgb(135, 206, 235);
+  height: 7vh;
+  background-color: var(--header-color);
+  color: var(--header-font-color);
   text-align: center;
+  align-items: center;
   font-size: 1.8em;
   font-family: 'Poppins', sans-serif;
 }
@@ -195,11 +210,19 @@ footer {
 
 
 /* For darkmode */
-#darkmode-icon {
-  height: 30px;
+#toggle-icon {
+  height: 50px;
   cursor: pointer;
+  padding-right: 25px;
 }
-
+#icon{
+  height: 50px;
+  padding-right: 25px;
+}
+#git{
+  content: var(--footer-img);
+  height: 30px;
+}
 @media only screen and (max-width: 800px) {
 
   /* using static units here instead of dynamic units to maintain a minimum base size as any resizing below this will cause the text to not be easily readable */
