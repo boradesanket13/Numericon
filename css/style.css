@@ -12,7 +12,7 @@
   --btn-color-1: rgb(98, 98, 98);
   --btn-color-2: #fff;
   --container-background: url("../img/light.jpg");
-  --footer-img: url("../img/git-black.png");
+  --footer-img: url("../img/git-black.png","../img/linkedin-black.png","../img/twitter-black.png");
 }
 
 .dark-theme{
@@ -23,7 +23,8 @@
   --btn-color-1:#fff;
   --btn-color-2:#000000;
   --container-background: url("../img/dark.jpg");
-  --footer-img: url("../img/git-white.png");
+  --footer-img: url("../img/git-white.png","../img/linkedin-white.png","../img/twitter-white.png");
+
 }
 
 #mute {
@@ -198,14 +199,19 @@ button:nth-child(20) {
   color: var(--btn-color-1);
 }
 footer {
-  height: 7vh;
+  height: 15vh;
   background-color: var(--header-color);
   color: var(--header-font-color);
   text-align: center;
   align-items: center;
   font-size: 1.8em;
   font-family: 'Poppins', sans-serif;
+ 
 }
+a{
+  text-decoration: none;
+}
+
 
 
 
@@ -220,6 +226,14 @@ footer {
   padding-right: 25px;
 }
 #git{
+  content: var(--footer-img);
+  height: 30px;
+}
+#linkedin{
+  content: var(--footer-img);
+  height: 30px;
+}
+#twitter{
   content: var(--footer-img);
   height: 30px;
 }
