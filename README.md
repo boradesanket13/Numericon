@@ -98,7 +98,7 @@ Please add here to this project's `code of conduct`.
 
 ## Screenshots (Dark Mode)
 
-![App Screenshot](/img/Screenshot_dark.png)
+![App Screenshot](/img/screenshot_dark.png)
 
 ## File Structure as follows
 ```
