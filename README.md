@@ -45,19 +45,17 @@ To deploy this project run
 
 | Color             | Hex                                                                |
 | ----------------- | ------------------------------------------------------------------ |
-| pink | ![#e83283](https://via.placeholder.com/10/e83283?text=+) `#e83283` |
-| blue | ![#3a8fd9](https://via.placeholder.com/10/3a8fd9?text=+) `#3a8fd9` |
-| indigo | ![#6610f2](https://via.placeholder.com/10/6610f2?text=+) `#6610f2` |
-| purple | ![#686dc3](https://via.placeholder.com/10/686dc3?text=+) ` #686dc3` |
-| red | ![#fc346f](https://via.placeholder.com/10/fc346f?text=+) `#fc346f` |
-| green | ![#41d7a7](https://via.placeholder.com/10/41d7a7?text=+)`41d7a7`  |
-| orange | ![#fd7e14](https://via.placeholder.com/10/fd7e14?text=+) `#fd7e14` |
-| yellow | ![#ffc107](https://via.placeholder.com/10/ffc107?text=+) `#ffc107 ` |
-| cyan | ![#39cbfb](https://via.placeholder.com/10/39cbfb?text=+) `#39cbfb`  |
-| teal | ![#528fb3](https://via.placeholder.com/10/528fb3?text=+) `#528fb3`  |
-- ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) `#f03c15`
-- ![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png) `#c5f015`
-- ![#1589F0](https://placehold.co/15x15/1589F0/1589F0.png) `#1589F0`
+| pink | ![#e83283](https://placehold.co/15x15/e83283/e83283.png)`#e83283` |
+| blue | ![#3a8fd9](https://placehold.co/15x15/3a8fd9/3a8fd9.png) `#3a8fd9` |
+| indigo | ![#6610f2](https://placehold.co/15x15/6610f2/6610f2.png) `#6610f2` |
+| purple | ![#686dc3](https://placehold.co/15x15/686dc3/686dc3.png) ` #686dc3` |
+| red | ![#fc346f](https://placehold.co/15x15/fc346f/fc346f.png) `#fc346f` |
+| green | ![#41d7a7](https://placehold.co/15x15/41d7a7/41d7a7.png) `41d7a7`  |
+| orange | ![#fd7e14](https://placehold.co/15x15/fd7e14/fd7e14.png) `#fd7e14` |
+| yellow | ![#ffc107](https://placehold.co/15x15/ffc107/ffc107.png) `#ffc107 ` |
+| cyan | ![#39cbfb](https://placehold.co/15x15/39cbfb/39cbfb.png) `#39cbfb`  |
+| teal | ![#528fb3](https://placehold.co/15x15/528fb3/528fb3.png) `#528fb3`  |
+
 
 ## Check out the project here 💻
 
