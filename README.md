@@ -10,6 +10,18 @@ This colourful caculator is used to perform basic  **mathematical** operations
 
 ![undraw_static_assets_rpm6 (1)](https://user-images.githubusercontent.com/114678694/193468831-6df4843c-8228-4e5d-9d76-63afbe2d9ac4.svg)
 
+## Supported
+
+Simple arithmetic calculations: addition, subtraction, multiplication and division,
+
+Floating points.
+## Not Supported
+
+Complex calculations (like a scientific calculator),
+
+Negative values,
+
+Exponential values.
 
 ## Deployment
 In order to deploy the website locally, follow the steps mentioned below:
