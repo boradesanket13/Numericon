@@ -82,18 +82,23 @@ See `contributing.md` for ways to get started.
 Please add here to this project's `code of conduct`.
 
 
-## Screenshots
+## Screenshots (Light Mode)
 >**Interface of the calculator**
 
-![App Screenshot](https://user-images.githubusercontent.com/86493014/193455722-9f867342-a759-49da-a47f-fd1d1f1528a7.png)
+![App Screenshot](/img/screenshot_light.png)
 
 >**After entering some data**
 
-![App Screenshot](https://user-images.githubusercontent.com/86493014/193455727-52f49118-b6ad-4667-ab37-069802d9180e.png)
+![App Screenshot](/img/Screenshot_data.jpg)
 
 >**Output**
 
-![App Screenshot](https://user-images.githubusercontent.com/86493014/193455733-bcb72c4e-11f1-444e-826d-d28b8fa5164d.png)
+![App Screenshot](/img/Screenshot_output.jpg)
+
+
+## Screenshots (Dark Mode)
+
+![App Screenshot](/img/Screenshot_dark.jpg)
 
 ## File Structure as follows
 ```
