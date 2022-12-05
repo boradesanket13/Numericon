@@ -1,62 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset='UTF-8'>
-<meta name='keywords' content='calculator'>
-<meta name='description' content='Web Based calculator - Simple Calculator. Simple Calculators subject is to make your life easier'>
-<meta name='subject' content='Simple Calculator's subject is to make your life easier'>
-<meta name='copyright' content='Simple Calculator'>
-<meta name='language' content='en'>
-<meta name='robots' content='index,follow'>
-<meta name='abstract' content=''>
-<meta name='topic' content=''>
-<meta name='summary' content=''>
-<meta name='Classification' content='Non Profit'>
-<meta name='designer' content=''>
-<meta name='owner' content=''>
-<meta name='url' content='https://sanket1308.github.io/Simple-Calculator/'>
-<meta name='identifier-URL' content='https://sanket1308.github.io/Simple-Calculator/'>
-<meta name='directory' content='submission'>
-<meta name='pagename' content='Web Based calculator - Simple Calculator'>
-<meta name='category' content=''>
-<meta name='coverage' content='Worldwide'>
-<meta name='distribution' content='Global'>
-<meta name='rating' content='General'>
-<meta name='revisit-after' content='7 days'>
-<meta name='subtitle' content='This is my subtitle'>
-<meta name='target' content='all'>
-<meta name='HandheldFriendly' content='True'>
-<meta name='MobileOptimized' content='320'>
-<meta name='DC.title' content='Simple Calculator'>
-<meta name='ResourceLoaderDynamicStyles' content=''>
-<meta name='medium' content='blog'>
-<meta name='pageKey' content='guest-home'>
-<meta itemprop='name' content='jQTouch'>
-<meta http-equiv='Expires' content='0'>
-<meta http-equiv='Pragma' content='no-cache'>
-<meta http-equiv='Cache-Control' content='no-cache'>
-<meta http-equiv='imagetoolbar' content='no'>
-<meta http-equiv='x-dns-prefetch-control' content='off'>
-<link rel="icon" type="image/x-icon" href="./img/calculator3.png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300&display=swap" rel="stylesheet"> 
+    <meta name='keywords' content='calculator'>
+    <meta name='description'
+        content='Web Based calculator - Simple Calculator. Simple Calculators subject is to make your life easier'>
+    <meta name='subject' content='Simple Calculator' s subject is to make your life easier'>
+    <meta name='copyright' content='Simple Calculator'>
+    <meta name='language' content='en'>
+    <meta name='robots' content='index,follow'>
+    <meta name='abstract' content=''>
+    <meta name='topic' content=''>
+    <meta name='summary' content=''>
+    <meta name='Classification' content='Non Profit'>
+    <meta name='designer' content=''>
+    <meta name='owner' content=''>
+    <meta name='url' content='https://sanket1308.github.io/Simple-Calculator/'>
+    <meta name='identifier-URL' content='https://sanket1308.github.io/Simple-Calculator/'>
+    <meta name='directory' content='submission'>
+    <meta name='pagename' content='Web Based calculator - Simple Calculator'>
+    <meta name='category' content=''>
+    <meta name='coverage' content='Worldwide'>
+    <meta name='distribution' content='Global'>
+    <meta name='rating' content='General'>
+    <meta name='revisit-after' content='7 days'>
+    <meta name='subtitle' content='This is my subtitle'>
+    <meta name='target' content='all'>
+    <meta name='HandheldFriendly' content='True'>
+    <meta name='MobileOptimized' content='320'>
+    <meta name='DC.title' content='Simple Calculator'>
+    <meta name='ResourceLoaderDynamicStyles' content=''>
+    <meta name='medium' content='blog'>
+    <meta name='pageKey' content='guest-home'>
+    <meta itemprop='name' content='jQTouch'>
+    <meta http-equiv='Expires' content='0'>
+    <meta http-equiv='Pragma' content='no-cache'>
+    <meta http-equiv='Cache-Control' content='no-cache'>
+    <meta http-equiv='imagetoolbar' content='no'>
+    <meta http-equiv='x-dns-prefetch-control' content='off'>
+    <link rel="icon" type="image/x-icon" href="./img/calculator3.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300&display=swap" rel="stylesheet">
     <title>Simple Calculator</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body class="light-mode">
-        <header> 
-            <div>
-                <img src="img/calculator3.png"  id="icon">  
-                <h1 >Simple Calculator</h1>
-            </div>
-            <div>
-                <img src="img/moon.png" alt="" id="toggle-icon">   
-                <button class="mute" id="mute">🔊</button>
-            </div>
-        </header>
+    <header>
+        <div>
+            <img src="img/calculator3.png" id="icon">
+            <h1>Simple Calculator</h1>
+        </div>
+        <div>
+            <img src="img/moon.png" alt="" id="toggle-icon">
+            <button class="mute" id="mute">🔊</button>
+        </div>
+    </header>
     <div class="container">
 
         <div class="calculator">
@@ -68,40 +71,51 @@
                 </div>
 
                 <div class="output">
-                    <p id="output-value"></p> 
+                    <p id="output-value"></p>
                 </div>
 
             </div>
-            
+
             <div class="keyboard">
                 <button class="operator" id="clear">C</button>
                 <button class="operator" id="backspace">CE</button>
                 <button class="operator" id="%">%</button>
                 <button class="operator" id="/">&#247</button>
-                <button class="number"   id="9">9</button>
-                <button class="number"   id="8">8</button>
-                <button class="number"   id="7">7</button>
+                <button class="number" id="9">9</button>
+                <button class="number" id="8">8</button>
+                <button class="number" id="7">7</button>
                 <button class="operator" id="*">&times</button>
-                <button class="number"   id="6">6</button>
-                <button class="number"   id="5">5</button>
-                <button class="number"   id="4">4</button>
+                <button class="number" id="6">6</button>
+                <button class="number" id="5">5</button>
+                <button class="number" id="4">4</button>
                 <button class="operator" id="-">-</button>
-                <button class="number"   id="3">3</button>
-                <button class="number"   id="2">2</button>
-                <button class="number"   id="1">1</button>
+                <button class="number" id="3">3</button>
+                <button class="number" id="2">2</button>
+                <button class="number" id="1">1</button>
                 <button class="operator" id="+">+</button>
                 <button class="operator" id="!">n! </button>
-                <button class="number"   id="0">0</button>
-                <button class="sign"    id="play">&#177</button>
+                <button class="number" id="0">0</button>
+                <button class="sign" id="play">&#177</button>
                 <button class="operator" id="=">=</button>
             </div>
 
         </div>
 
     </div>
-<footer>Contribute 
-    <a href="https://github.com/Sanket1308/Simple-Calculator"><img src="img/git-black.png" id="git"></footer>
-   </a>
-     <script src="./js/script.js"></script>
+    <footer>
+        <div class="contribute"style="background-color: #e04784;">
+            <p>Contribute Here: </p>
+            <a href="https://github.com/Sanket1308/Simple-Calculator"><img src="img/git-black.png"
+                    id="git"></a>
+        </div>
+        <div class="socials: " style="background-color: #e04784;">
+            <p>Socials: </p>
+            <a href="https://www.linkedin.com/in/boradesanket13/"><img src="img/icons8-linkedin-48.png"></a>
+            <a href="https://twitter.com/boradesanket13"><img src="img/icons8-twitter-48.png"></a>
+        </div>
+    </footer>
+
+    <script src="./js/script.js"></script>
 </body>
+
 </html>
