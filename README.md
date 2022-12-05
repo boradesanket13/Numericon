@@ -55,7 +55,9 @@ To deploy this project run
 | yellow | ![#ffc107](https://via.placeholder.com/10/ffc107?text=+) `#ffc107 ` |
 | cyan | ![#39cbfb](https://via.placeholder.com/10/39cbfb?text=+) `#39cbfb`  |
 | teal | ![#528fb3](https://via.placeholder.com/10/528fb3?text=+) `#528fb3`  |
-
+- ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) `#f03c15`
+- ![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png) `#c5f015`
+- ![#1589F0](https://placehold.co/15x15/1589F0/1589F0.png) `#1589F0`
 
 ## Check out the project here 💻
 
@@ -98,7 +100,7 @@ Please add here to this project's `code of conduct`.
 
 ## Screenshots (Dark Mode)
 
-![App Screenshot](/img/Screenshot_dark.jpg)
+![App Screenshot](/img/Screenshot_dark.png)
 
 ## File Structure as follows
 ```
