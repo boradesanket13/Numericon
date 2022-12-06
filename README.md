@@ -59,7 +59,7 @@ To deploy this project run
 
 ## Check out the project here 💻
 
-[Link to Website](https://sanket1308.github.io/Simple-Calculator/)
+[Link to Website](https://calculator-smoky-seven.vercel.app/)
 
 
 ## Badges
@@ -110,7 +110,7 @@ js/script.js
 
 ## Developer
 
- [@Sanket1308](https://www.github.com/Sanket1308)
+ [@Sanket1308](https://www.github.com/boradesanket13)
 
 Happy Hacking !! 😊🙌
 
@@ -122,6 +122,6 @@ Thanks goes to these wonderful people (🤗):
 
 </br>
 
-<a href="https://github.com/Sanket1308/Simple-Calculator/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Sanket1308/Simple-Calculator"/>
+<a href="https://github.com/boradesanket13/Calculator/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=boradesanket13/Calculator"/>
   </a>
