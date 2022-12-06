@@ -199,13 +199,14 @@ button:nth-child(20) {
   color: var(--btn-color-1);
 }
 footer {
-  height: 15vh;
+  height: 6vh;
   background-color: var(--header-color);
   color: var(--header-font-color);
   text-align: center;
   align-items: center;
   font-size: 1.8em;
   font-family: 'Poppins', sans-serif;
+  padding-top: 5px;
  
 }
 a{
