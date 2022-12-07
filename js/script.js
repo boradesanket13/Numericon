@@ -39,6 +39,8 @@ function reverseNumberFormat(num) {
 
 var oprators = document.getElementsByClassName("operator");
 
+const event = new Event('click');
+
 for (var i = 0; i < oprators.length; i++) {
     oprators[i].addEventListener('click', function () {
         if (this.id == "clear") {
@@ -124,6 +126,66 @@ for (var i = 0; i < numbers.length; i++) {
         }
     });
 }
+
+document.addEventListener('keydown',(event)=>{
+    if(event.key == "Enter" || event.key == "="){
+        oprators[8].click();
+    }
+    else if(event.key == "+"){
+        oprators[6].click();
+    }
+    else if(event.key == "-"){
+        oprators[5].click();
+    }
+    else if(event.key == "!"){
+        oprators[7].click();
+    }
+    else if(event.key == "*"||event.key == "x"){
+        oprators[4].click();
+    }
+    else if(event.key == "/"){
+        oprators[3].click();
+    }
+    else if(event.key == "%"){
+        oprators[2].click();
+    }
+    else if(event.key == "Backspace"){
+        oprators[1].click();
+    }
+    else if(event.key == "clear"){
+        oprators[0].click();
+    }
+    else if(event.key == "9"){
+        numbers[0].click();
+    }
+    else if(event.key == "8"){
+        numbers[1].click();
+    }
+    else if(event.key == "7"){
+        numbers[2].click();
+    }
+    else if(event.key == "6"){
+        numbers[3].click();
+    }
+    else if(event.key == "5"){
+        numbers[4].click();
+    }
+    else if(event.key == "4"){
+        numbers[5].click();
+    }
+    else if(event.key == "3"){
+        numbers[6].click();
+    }
+    else if(event.key == "2"){
+        numbers[7].click();
+    }
+    else if(event.key == "1"){
+        numbers[8].click();
+    }
+    else if(event.key == "0"){
+        numbers[9].click();
+    }
+})
 
 
 // For Darkmode
