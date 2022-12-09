@@ -1,3 +1,7 @@
+function setHistory(num){
+    document.getElementById("history-value").innerText = num;
+}
+
 function getHistory() {
     return document.getElementById("history-value").innerText;
 }
@@ -93,7 +97,7 @@ for (var i = 0; i < oprators.length; i++) {
             var res2 = res ** 2;
             var final = res2.toString();
             printOutput(final);
-            printHIstory(history + "^2");
+            setHistory("");
         }
         else if (this.id == "squareroot") {
             var output = getOutput();
@@ -105,7 +109,7 @@ for (var i = 0; i < oprators.length; i++) {
             var res2 = (res ** 0.5);
             var final = res2.toString();
             printOutput(final);
-            printHIstory(history + "^(1/2)");
+            setHistory("");
         }
         else if (this.id == "lnx") {
             var output = getOutput();
