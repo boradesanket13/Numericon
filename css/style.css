@@ -72,7 +72,7 @@ header div{
 
 .calculator{
     height: 500px;
-    width: 400px;
+    width: 500px;
     background-color: var(--primary-color);
     margin: 0 auto;
     position: relative;
@@ -127,7 +127,7 @@ header div{
 
 button {
   border-radius: 15%;
-  width: 20%;
+  width: 16%;
   margin: 1%;
   height: 50px;
   border-width: 0;
@@ -157,35 +157,35 @@ button:focus {
   outline: 0;
 }
 
-button:nth-child(4) {
+button:nth-child(9) {
   background-color: rgb(23, 231, 214);
   /* box-shadow: 0 8px 16px 8px   rgb(0, 32, 80); */
-  z-index: 5;
+   z-index: 5;
   /* position: absolute; */
 }
 
-button:nth-child(8) {
+button:nth-child(10) {
   background-color: rgb(176, 231, 23);
   /* box-shadow: 0 8px 16px 0   rgb(89, 130, 190); */
   z-index: 5;
   /* position: absolute; */
 }
 
-button:nth-child(12) {
+button:nth-child(14) {
   background-color: rgb(231, 117, 23);
   /* box-shadow: 0 8px 16px 0   rgb(89, 130, 190); */
   z-index: 5;
   /* position: absolute; */
 }
 
-button:nth-child(16) {
+button:nth-child(15) {
   background-color: rgb(255, 133, 133);
   /* box-shadow: 0 8px 16px 0  rgb(89, 130, 190); */
   z-index: 5;
   /* position: absolute; */
 }
 
-button:nth-child(20) {
+button:nth-child(25) {
   background-color: rgb(72, 231, 23);
   /* box-shadow: 0 8px 16px 0   rgb(89, 130, 190); */
   z-index: 5;

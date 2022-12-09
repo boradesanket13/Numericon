@@ -1,7 +1,7 @@
 function getHistory() {
     return document.getElementById("history-value").innerText;
-
 }
+
 function printHIstory(num) {
     document.getElementById("history-value").innerText = num;
 }
@@ -26,7 +26,7 @@ function getFormativeNum(num) {
 
     var n = Number(num);
     var value = n.toLocaleString('en');
-    return value;
+    return n;
 }
 
 function reverseNumberFormat(num) {
@@ -52,37 +52,95 @@ for (var i = 0; i < oprators.length; i++) {
                 printOutput(output);
             }
         }
-        else if(this.id=="!"){
+        else if (this.id == "!") {
             var output = getOutput();
             var history = getHistory();
             console.log(output);
             console.log(history);
-            let n= output;
+            let n = output;
             console.log("v");
             let answer = 1;
-            if (n == 0 || n == 1){
-                answer =1;
+            if (n == 0 || n == 1) {
+                answer = 1;
             }
-            else{
-                for(var i = n; i >= 1; i--){
+            else {
+                for (var i = n; i >= 1; i--) {
                     answer = answer * i;
                 }
-                output =answer;
-                history=history+output;
+                output = answer;
+                history = history + output;
                 var res = eval(history);
                 printOutput(res);
                 printHIstory("");
-            }  
+            }
         }
-        else if(this.id=="sign"){
+        else if (this.id == "sign") {
             var output = getOutput();
             var history = getHistory();
-            history=history+output;
+            history = history + output;
             var res = eval(history);
-            res=res*-1;
+            res = res * -1;
             printOutput(res);
-            printHIstory(""); 
-        }  
+            printHIstory("");
+        }
+        else if (this.id == "square") {
+            var output = getOutput();
+            var history = getHistory();
+            history = Number(history);
+            output = Number(output);
+            history = history + output;
+            var res = history;
+            var res2 = res ** 2;
+            var final = res2.toString();
+            printOutput(final);
+            printHIstory(history + "^2");
+        }
+        else if (this.id == "squareroot") {
+            var output = getOutput();
+            var history = getHistory();
+            history = Number(history);
+            output = Number(output);
+            history = history + output;
+            var res = history;
+            var res2 = (res ** 0.5);
+            var final = res2.toString();
+            printOutput(final);
+            printHIstory(history + "^(1/2)");
+        }
+        else if (this.id == "lnx") {
+            var output = getOutput();
+            var history = getHistory();
+            history = Number(history);
+            output = Number(output);
+            history = history + output;
+            var res = history;
+            var res2 = Math.log(res);
+            var final = res2.toString();
+            printOutput(final);
+            printHIstory("ln(" + history + ")");
+        }
+        else if (this.id == "exp") {
+            var output = getOutput();
+            var history = getHistory();
+            history = history + output;
+            var res = eval(history);
+            var dum = res;
+            res = 2.718281828459045 ** res;
+            printOutput(res);
+            printHIstory("e^" + dum);
+        }
+        else if (this.id == "log") {
+            var output = getOutput();
+            var history = getHistory();
+            history = Number(history);
+            output = Number(output);
+            history = history + output;
+            var res = history;
+            var res2 = Math.log10(res);
+            var final = res2.toString();
+            printOutput(final);
+            printHIstory("log(" + history + ")");
+        }
         else {
             var output = getOutput();
             var history = getHistory();
@@ -142,23 +200,23 @@ darkmode.onclick = function () {
 }
 
 
-var play=true;
-var count=1;
-document.querySelector("#mute").addEventListener('click',function(){
-    if(count%2){
-        play=false;
-        mute.innerText='🔇';
+var play = true;
+var count = 1;
+document.querySelector("#mute").addEventListener('click', function () {
+    if (count % 2) {
+        play = false;
+        mute.innerText = '🔇';
     }
-    else{
-       play=true;
-       mute.innerText='🔊';
+    else {
+        play = true;
+        mute.innerText = '🔊';
     }
     count++;
 });
 
-document.querySelector(".keyboard").addEventListener('click', function(){
-    if(play){
-        var audio= new Audio("./Audio/calculatorclick.mp3");
+document.querySelector(".keyboard").addEventListener('click', function () {
+    if (play) {
+        var audio = new Audio("./Audio/calculatorclick.mp3");
         audio.play();
     }
 });
