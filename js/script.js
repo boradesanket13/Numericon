@@ -1,5 +1,5 @@
 function getHistory() {
-    return document.getElementById("history-value").innerText;
+    return document.getElementById("history-value").innerText; 
 }
 
 function printHIstory(num) {
