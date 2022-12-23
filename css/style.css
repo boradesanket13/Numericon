@@ -109,6 +109,10 @@ header div {
   font-size: 15px;
 }
 
+#history-value{
+  letter-spacing: 5px;
+}
+
 .output {
   text-align: right;
   margin: 0 20px;
