@@ -108,7 +108,7 @@ header div {
   color: white;
   font-size: 15px;
 }
-
+/*Adds space between the operator and operands*/
 #history-value{
   letter-spacing: 5px;
 }
