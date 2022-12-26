@@ -162,3 +162,10 @@ document.querySelector(".keyboard").addEventListener('click', function(){
         audio.play();
     }
 });
+
+function doTheJob(e) {
+    const element1 = document.querySelector(`.key[data-key = "${e.key}"]`);
+    if(element1 !== null) element1.click();
+}
+
+document.addEventListener("keydown", doTheJob);
