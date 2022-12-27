@@ -141,6 +141,9 @@ button {
 .empty {
   background-color: var(--primary-color);
   color: white;
+  /* box-shadow: 
+    -3px -3px 7px #a0a0a032,
+    3px 3px 5px rgba(94, 104, 121, 0.417); */
 }
 
 .operator,
@@ -233,13 +236,46 @@ footer {
 
   .calculator {
     width: 300px;
+    
   }
 
   button {
     width: 55px;
+   
+    
   }
 }
 
 .result::-webkit-scrollbar {
   display: none;
 }
+
+.operator,.operator-key,.number-key,.sign{
+  box-shadow: 5px 5px 5px rgb(42, 2, 56),
+  -5px -5px 50px rgb(167, 23, 152);
+  height: 4.5vw;
+  width: 4.5vw;
+  margin: 0.5vw;
+  opacity: 0.75;
+}
+.operator:hover,.number-key:hover,.operator-key:hover,.sign:hover{
+  opacity: 1;
+  background-color: #ffffff;
+  color: black;
+}
+
+.result{
+  box-shadow: inset 5px 5px 15px rgba(0, 0, 0, 1);
+  height: 12vw;
+  width: 25vw;
+  margin-left: 1.4vw;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+}
+
+.calculator{
+  height: 45vw;
+  box-shadow: 5px 5px 5px rgb(97, 22, 135),
+  -15px -15px 30px rgb(90, 10, 85);
+}
+
