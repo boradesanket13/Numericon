@@ -70,9 +70,7 @@ header div {
   justify-content: space-between;
 }
 
-.calculator {
-  height: 500px;
-  width: 400px;
+.calculator {  
   background-color: var(--primary-color);
   margin: 0 auto;
   position: relative;
@@ -96,7 +94,7 @@ header div {
   border-radius: 10px 10px 10px 10px;
   word-wrap: break-word;
   overflow-y: scroll;
-
+  
   box-shadow: 0px 2px 1px #ffffff;
 }
 
@@ -115,7 +113,7 @@ header div {
 
 .output {
   text-align: right;
-  margin: 0 20px;
+  margin: 0 2vw;
   padding-top: 10px;
   font-size: 1.3em;
   font-weight: bold;
@@ -123,7 +121,7 @@ header div {
 }
 
 .keyboard {
-  padding-top: 28px;
+  padding-top: 4vw;
   text-align: center;
 }
 
@@ -141,6 +139,9 @@ button {
 .empty {
   background-color: var(--primary-color);
   color: white;
+  /* box-shadow: 
+    -3px -3px 7px #a0a0a032,
+    3px 3px 5px rgba(94, 104, 121, 0.417); */
 }
 
 .operator,
@@ -162,15 +163,29 @@ button:focus {
 button:nth-child(4) {
   background-color: rgb(23, 231, 214);
   /* box-shadow: 0 8px 16px 8px   rgb(0, 32, 80); */
-  z-index: 5;
+  /* z-index: 5; */
   /* position: absolute; */
-}
+  box-shadow: 5px 5px 5px rgb(42, 2, 56),
+  -5px -5px 50px rgb(167, 23, 152);
+  height: 4.5vw;
+  width: 4.5vw;
+  margin: 0.5vw;
+  opacity: 0.75;
+  color: #000000
+} 
 
 button:nth-child(8) {
   background-color: rgb(176, 231, 23);
   /* box-shadow: 0 8px 16px 0   rgb(89, 130, 190); */
   z-index: 5;
   /* position: absolute; */
+  box-shadow: 5px 5px 5px rgb(42, 2, 56),
+  -5px -5px 50px rgb(167, 23, 152);
+  height: 4.5vw;
+  width: 4.5vw;
+  margin: 0.5vw;
+  opacity: 0.75;
+  color: #000000
 }
 
 button:nth-child(12) {
@@ -178,20 +193,39 @@ button:nth-child(12) {
   /* box-shadow: 0 8px 16px 0   rgb(89, 130, 190); */
   z-index: 5;
   /* position: absolute; */
+  box-shadow: 5px 5px 5px rgb(42, 2, 56),
+  -5px -5px 50px rgb(167, 23, 152);
+  height: 4.5vw;
+  width: 4.5vw;
+  margin: 0.5vw;
+  opacity: 0.75;
+  color: #000000
 }
 
 button:nth-child(16) {
   background-color: rgb(255, 133, 133);
   /* box-shadow: 0 8px 16px 0  rgb(89, 130, 190); */
-  z-index: 5;
   /* position: absolute; */
+  box-shadow: 5px 5px 5px rgb(42, 2, 56),
+  -5px -5px 50px rgb(167, 23, 152);
+  height: 4.5vw;
+  width: 4.5vw;
+  margin: 0.5vw;
+  opacity: 0.75;
+  color: #000000
 }
 
 button:nth-child(20) {
   background-color: rgb(72, 231, 23);
   /* box-shadow: 0 8px 16px 0   rgb(89, 130, 190); */
-  z-index: 5;
   /* position: absolute; */
+  box-shadow: 5px 5px 5px rgb(42, 2, 56),
+  -5px -5px 50px rgb(167, 23, 152);
+  height: 4.5vw;
+  width: 4.5vw;
+  margin: 0.5vw;
+  opacity: 0.75;
+  color: #000000
 }
 
 .number:hover,
@@ -237,9 +271,66 @@ footer {
 
   button {
     width: 55px;
+   
+    
   }
 }
 
 .result::-webkit-scrollbar {
   display: none;
 }
+
+.operator{
+  box-shadow: 5px 5px 5px rgb(42, 2, 56),
+  -5px -5px 50px rgb(167, 23, 152);
+  height: 4.5vw;
+  width: 4.5vw;
+  margin: 0.5vw;
+  opacity: 0.75;
+}
+
+
+
+
+
+
+
+.operator:hover{
+  opacity: 1;
+  background-color: #ffffff;
+  color: black;
+}
+
+.result{
+  box-shadow: inset 5px 5px 15px rgba(0, 0, 0, 1);
+  height: 12vw;
+  width: 25vw;
+  margin-left: 2.5vw;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+}
+
+.calculator{
+  height: 45vw;
+  width: 30vw;
+  box-shadow: 5px 5px 5px rgb(97, 22, 135),
+  -15px -15px 30px rgb(90, 10, 85);
+}
+
+.output{
+  height: 20vw;
+}
+
+button:nth-child(1),button:nth-child(2),button:nth-child(3),button:nth-child(5),button:nth-child(6),button:nth-child(7),button:nth-child(9),button:nth-child(10),button:nth-child(11),button:nth-child(13),button:nth-child(14),button:nth-child(15),button:nth-child(17),button:nth-child(18),button:nth-child(19) {
+  box-shadow: 5px 5px 5px rgb(42, 2, 56),
+  -5px -5px 50px rgb(167, 23, 152);
+  height: 4.5vw;
+  width: 4.5vw;
+  margin: 0.5vw;
+  opacity: 0.75;
+  background-color: white;
+  color: #000000;
+}
+
+
+
