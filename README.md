@@ -1,5 +1,6 @@
 ![Simple Calculator Logo](https://i.imgur.com/VFZ1TRu.png)
 # Calculator-Using-HTML-CSS-and-Javascript
+## Can be used as Browser Extension
 This colourful caculator is used to perform basic  **mathematical** operations
 #### Calculator : A calculator is a device that performs arithmetic operations on numbers. Basic calculators can do only addition, subtraction, multiplication and division mathematical calculations. 
 
