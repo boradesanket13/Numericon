@@ -1,7 +1,5 @@
 # Browser extension for Calculator
 
-This colourful caculator is used to perform basic  **mathematical** operations
-
 
 ![undraw_calculator_re_alsc (1)](https://user-images.githubusercontent.com/114678694/193467678-38489f12-5751-414d-a1e9-04657d5ade53.svg)
 <br>
