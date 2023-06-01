@@ -1,8 +1,7 @@
-![Simple Calculator Logo](https://i.imgur.com/VFZ1TRu.png)
-# Calculator-Using-HTML-CSS-and-Javascript
-## Can be used as Browser Extension
+# Browser extension for Calculator
+
 This colourful caculator is used to perform basic  **mathematical** operations
-#### Calculator : A calculator is a device that performs arithmetic operations on numbers. Basic calculators can do only addition, subtraction, multiplication and division mathematical calculations. 
+
 
 ![undraw_calculator_re_alsc (1)](https://user-images.githubusercontent.com/114678694/193467678-38489f12-5751-414d-a1e9-04657d5ade53.svg)
 <br>
@@ -11,37 +10,7 @@ This colourful caculator is used to perform basic  **mathematical** operations
 
 ![undraw_static_assets_rpm6 (1)](https://user-images.githubusercontent.com/114678694/193468831-6df4843c-8228-4e5d-9d76-63afbe2d9ac4.svg)
 
-## Supported
 
-Simple arithmetic calculations: addition, subtraction, multiplication and division,
-
-Floating points.
-## Not Supported
-
-Complex calculations (like a scientific calculator),
-
-Negative values,
-
-Exponential values.
-
-## Deployment
-In order to deploy the website locally, follow the steps mentioned below:
-
-To clone this project run
-
-```bash
-  git clone https://github.com/Sanket1308/Simple-Calculator.git
-```
-Go into the project folder
-
-```bash
-  cd simple-calculator
-```
-To deploy this project run
-
-```bash
-  Run Live Server
-``` 
  ## Color Reference
 
 | Color             | Hex                                                                |
@@ -56,11 +25,6 @@ To deploy this project run
 | yellow | ![#ffc107](https://placehold.co/15x15/ffc107/ffc107.png) `#ffc107 ` |
 | cyan | ![#39cbfb](https://placehold.co/15x15/39cbfb/39cbfb.png) `#39cbfb`  |
 | teal | ![#528fb3](https://placehold.co/15x15/528fb3/528fb3.png) `#528fb3`  |
-
-
-## Check out the project here 💻
-
-[Link to Website](https://calculator-smoky-seven.vercel.app/)
 
 
 ## Badges
@@ -83,35 +47,9 @@ See `contributing.md` for ways to get started.
 Please add here to this project's `code of conduct`.
 
 
-## Screenshots (Light Mode)
->**Interface of the calculator**
+## Author
 
-![App Screenshot](/img/screenshot_light.png)
-
->**After entering some data**
-
-![App Screenshot](/img/Screenshot_data.jpg)
-
->**Output**
-
-![App Screenshot](/img/Screenshot_output.jpg)
-
-
-## Screenshots (Dark Mode)
-
-![App Screenshot](/img/screenshot_dark.png)
-
-## File Structure as follows
-```
-index.html
-css/style.css
-js/script.js
-```
-
-
-## Developer
-
- [@Sanket1308](https://www.github.com/boradesanket13)
+ [@boradesanket13](https://www.github.com/boradesanket13)
 
 Happy Hacking !! 😊🙌
 
